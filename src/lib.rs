@@ -184,6 +184,8 @@
 //!
 #![deny(missing_docs)]
 
+extern crate hashbrown;
+
 use std::collections::hash_map::RandomState;
 use std::hash::{BuildHasher, Hash};
 

@@ -20,4 +20,8 @@ license = "MIT/Apache-2.0"
 travis-ci = { repository = "jonhoo/rust-evmap" }
 maintenance = { status = "passively-maintained" }
 
+[features]
+nightly = ["hashbrown/nightly"]
+
 [dependencies]
+hashbrown = "0.1"
